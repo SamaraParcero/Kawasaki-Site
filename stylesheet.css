@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(fonte/Inter-Regular.ttf) format('ttf'),
+         url(fonte/Inter-Bold.ttf) format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.header{
+    background-color: #D9D9D9;
+    width: 1920px;
+    height: 164px;
+}
+
+
+
+.logo{
+    width: 100%;
+    height: 125px;
+    flex-shrink: 0;
+    background-color: #D9D9D9;
+}
+
+
+ .kawasaki-logo-png {
+    padding-top: 25px;
+    padding-left: 109px;
+}
+
+.linha-verde {
+    width: 100%; 
+    height: 5px; 
+    background-color: #1DB718; 
+}
+
+nav.menu {
+   display: flex;
+   width: 1920px;
+   height: 70px;
+   padding: 0px 74px;
+   align-items: center;
+   background: #282828;
+}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    padding-right: 15px;
+    padding-left: 20px;
+    margin: 0 5px;
+    color: white;
+}
+
+.divisao {
+    height: 70px; 
+    width: 1px; 
+    background-color: #FFF; /
+}
+
+
+
+nav.menu ul li {
+    display: inline;
+    margin-right: 15px;
+    padding-right: 15px; 
+}
+
+
+nav.menu ul li a{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner {
+    background-color: #DEDEDE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin-top: 36px;
+}
+
+.texto{
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 191.023%;
+}
+
+.texto-menor{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 191.023%;
+}
+
+div.componente{
+    display: inline-flex;
+    align-items: center;
+}
+
+div.componente ul.esquerda li {
+    list-style: none;
+    padding-left: 56px;
+    padding-top: 39px;
+    justify-content: left;
+    display: inline;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 191.023%;
+}
+
+
+
+div.componente ul.direita{
+    list-style: none;
+    padding-left: 300px;
+    display: inline;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.box-preta{
+    display: inline-flex;
+    width: 250px;
+    height: 68px;
+    padding: 20px 30px;
+    justify-content: center;
+    padding-left: 37px;
+    margin-right: 37px;
+    border-radius: 9px;
+    background: #000;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.box-preta li {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90.5%;
+    text-align: center;
+    white-space: nowrap;
+    margin-left: 30;
+    margin-right: 30;
+    margin-top: 20;
+    margin-bottom: 20;
+}
+.titulo{
+    padding-left: 139px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #DEDEDE;
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90.5%;
+}
+
+.banner2{
+    background-color: #DEDEDE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    padding-left: 100px;
+}
+
+.texto2{
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90.5%; 
+    padding-bottom: 70px;
+}
+
+.subtexto{
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90.5%;
+    padding-bottom: 70px;
+}
+
+.texto-menor2{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 90.5%;
+    padding-right: 200px;
+    padding-bottom: 70px;
+    display: block;
+}
+
+.box-preta-quadrada{
+    display: flex;
+    width: 242px;
+    height: 56px;
+    padding: 20px 20px ;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #000;
+    white-space: nowrap; 
+    align-self: flex-start
+}
+
+.texto-box{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90.5%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.banner2 .conteudo {
+    padding-left: 60px;
+}
