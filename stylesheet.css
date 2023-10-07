@@ -27,7 +27,7 @@
 
 
 .logo{
-    width: 100%;
+    max-width: 100%;
     height: 125px;
     flex-shrink: 0;
     background-color: #D9D9D9;
@@ -72,7 +72,7 @@ nav.menu ul {
 .divisao {
     height: 70px; 
     width: 1px; 
-    background-color: #FFF; /
+    background-color: #FFF; 
 }
 
 
@@ -85,6 +85,7 @@ nav.menu ul li {
 
 
 nav.menu ul li a{
+    font-family: 'inter';
     color: #FFF;
     font-size: 14px;
     font-style: normal;
@@ -109,6 +110,7 @@ nav.menu ul li a{
 }
 
 .texto{
+    font-family: 'inter';
     color: #000;
     font-size: 40px;
     font-style: normal;
@@ -117,6 +119,7 @@ nav.menu ul li a{
 }
 
 .texto-menor{
+    font-family: 'inter';
     color: #000;
     font-size: 16px;
     font-style: normal;
@@ -124,15 +127,18 @@ nav.menu ul li a{
     line-height: 191.023%;
 }
 
+
 div.componente{
     display: inline-flex;
     align-items: center;
 }
 
 div.componente ul.esquerda li {
+    font-family: 'inter';
     list-style: none;
     padding-left: 56px;
-    padding-top: 39px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     justify-content: left;
     display: inline;
     color: #000;
@@ -142,15 +148,33 @@ div.componente ul.esquerda li {
     line-height: 191.023%;
 }
 
+.line,
+.line * {
+  box-sizing: border-box;
+}
+
+.esquerda .line{
+    margin-right: -70px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-left: 3px solid #dedede;
+    height: 84px;
+    width: 3px;
+    display: inline-block;
+}
+
 
 
 div.componente ul.direita{
+    font-family: 'inter';
     list-style: none;
     padding-left: 300px;
     display: inline;
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+
 
 .box-preta{
     display: inline-flex;
@@ -167,6 +191,7 @@ div.componente ul.direita{
 }
 
 .box-preta li {
+    font-family: 'inter';
     color: #FFF;
     font-size: 24px;
     font-style: normal;
@@ -180,6 +205,7 @@ div.componente ul.direita{
     margin-bottom: 20;
 }
 .titulo{
+    font-family: 'inter';
     padding-left: 139px;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -217,6 +243,7 @@ div.componente ul.direita{
 }
 
 .texto2{
+    font-family: 'inter';
     color: #000;
     font-size: 48px;
     font-style: normal;
@@ -226,6 +253,7 @@ div.componente ul.direita{
 }
 
 .subtexto{
+    font-family: 'inter';
     color: #000;
     font-size: 32px;
     font-style: normal;
@@ -235,6 +263,7 @@ div.componente ul.direita{
 }
 
 .texto-menor2{
+    font-family: 'inter';
     color: #000;
     font-size: 24px;
     font-style: normal;
@@ -260,6 +289,7 @@ div.componente ul.direita{
 }
 
 .texto-box{
+    font-family: 'inter';
     color: #FFF;
     font-size: 24px;
     font-style: normal;
@@ -311,6 +341,7 @@ div.componente ul.direita{
 }
 
 .titulo2{
+    font-family: 'inter';
     padding-left: 143px;
     padding-right: 20px;
     color: #FFF;
@@ -348,6 +379,7 @@ div.componente ul.direita{
 
 
 .imagem-texto {
+    font-family: 'inter';
     display: block; 
     margin-top: 30px; 
     margin-right: 150px;
@@ -373,6 +405,7 @@ div.componente ul.direita{
 }
 
 .texto-box{
+    font-family: 'inter';
     padding-top: 25px;
     padding-bottom: 30px;
     color: #FFF;
@@ -384,6 +417,54 @@ div.componente ul.direita{
     align-items: center;
 }
 
+.banner5{
+    background: #E5E5E7;
+    width: 100%;
+    height: max-content; padding-bottom: 56px;
+    display: flex; place-items: center;
+    flex-direction: column;
+}
+
+#texto-final{
+
+    color: #000;
+text-align: center;
+font-family: 'Inter';
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: 143.5%; 
+align-items: center;
+margin-top: 70px;
+
+}
+
+.barrinha{
+width: 305px;
+height: 1px;
+background: #000;
+display: flex;
+margin-top: 20px;
+place-content: center;
+margin-bottom: 30px;
+
+}
+
+.links-finais1 {
+    color: #000;
+font-family: 'Inter';
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 143.5%;
+text-decoration-line: underline;
+}
+
+.links-finais3{
+list-style: none;
+margin-bottom: 30px;
+text-align: center;
+}
 
 
 
